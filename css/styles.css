@@ -355,49 +355,6 @@ h3.my-profession {
   margin-right: 1em;
   margin-top: 0.6em;
 }
-.about .about-content .skills {
-  flex: 0 0 40%;
-  max-width: 40%;
-  margin-top: 2.5em;
-}
-.about .about-content .skills .skill-item {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-.about .about-content .skills .skill-item h5 {
-  line-height: 2.5em;
-  font-weight: 600;
-  font-size: 1rem;
-  color: var(--text-black-900);
-  text-transform: capitalize;
-}
-.about .about-content .skills .skill-item .progress {
-  background-color: var(--bg-black-50);
-  height: 0.5em;
-  border-radius: 4px;
-  width: 100%;
-  position: relative;
-}
-
-.about .about-content .skills .skill-item {
-  margin-bottom: 1.5em;
-}
-.about .about-content .skills .skill-item .progress .progress-in {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  border-radius: 4px;
-  background-color: var(--skin-color);
-}
-.about .about-content .skills .skill-item .skill-percent {
-  position: absolute;
-  right: 0;
-  color: var(--text-black-900);
-  top: -40px;
-  font-weight: 400;
-  line-height: 2.5em;
-}
 
 .about .about-content .education,
 .about .about-content .experience {
